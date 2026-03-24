@@ -58,3 +58,34 @@ npm run dev                   # Runs on http://localhost:5173
 | POST   | /upload     | Upload PDF resume    |
 | GET    | /resume     | List user resumes    |
 | POST   | /analyze    | Analyze resume vs JD |
+
+## 🚀 GitHub & Deployment
+
+### 1. Push to GitHub
+1. Create a new repository on [GitHub](https://github.com/new).
+2. Connect your local folder and push:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/ats-resume-analyzer.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+### 2. Deployment Tips
+
+#### **Frontend (Vercel/Netlify)**
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+- **Root Directory:** `frontend`
+- **Environment Variables:** Set `VITE_API_URL` to your backend URL.
+
+#### **Backend (Render/Railway/Heroku)**
+- **Build Command:** `pip install -r requirements.txt`
+- **Start Command:** `python main.py` (The app is configured to listen on the correct `$PORT`)
+- **Root Directory:** `backend`
+- **Environment Variables:**
+  - `DATABASE_URL`: Your production MySQL/PostgreSQL URL.
+  - `SECRET_KEY`: A long random string.
+  - `PORT`: (Automatically set by most platforms).
+
+#### **Database**
+Use a managed database like **Aiven for MySQL**, **PlanetScale**, or the internal database services provided by Render/Railway.
