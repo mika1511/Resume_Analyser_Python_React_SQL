@@ -15,6 +15,16 @@ In today's job market, resumes are often filtered by automated systems before th
 
 ---
 
+<img width="1903" height="891" alt="Screenshot 2026-03-24 163919" src="https://github.com/user-attachments/assets/af09e2f9-139b-4d79-a83d-2ad58e9831d9" />
+
+<img width="1896" height="892" alt="Screenshot 2026-03-24 163943" src="https://github.com/user-attachments/assets/2c74d1a3-f5c2-442c-a334-a650026404ca" />
+
+<img width="1892" height="876" alt="Screenshot 2026-03-24 163958" src="https://github.com/user-attachments/assets/f4092124-af2f-4525-a234-57fbcd9ec6b0" />
+
+<img width="1896" height="881" alt="Screenshot 2026-03-24 164050" src="https://github.com/user-attachments/assets/2b107a4c-ea38-4d55-a86b-4d67742a8af9" />
+
+<img width="1864" height="878" alt="Screenshot 2026-03-24 164223" src="https://github.com/user-attachments/assets/84a9fa7f-1f5f-42bd-92f7-6c9fcecbb204" />
+
 ## 🚀 Getting Started (Local Setup)
 
 Follow these steps to get the project running on your local machine.
