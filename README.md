@@ -15,6 +15,82 @@ In today's job market, resumes are often filtered by automated systems before th
 
 ---
 
+## 🚀 Getting Started (Local Setup)
+
+Follow these steps to get the project running on your local machine.
+
+### 1. Prerequisites 📋
+Ensure you have the following installed:
+- **Node.js** (v18 or higher)
+- **Python** (v3.9 or higher)
+- **MySQL** (v8.0 or higher)
+
+### 2. Clone the Repository 📂
+Open your terminal and run:
+```bash
+git clone https://github.com/mika1511/Resume_Analyser_Python_React_SQL.git
+cd Resume_Analyser_Python_React_SQL
+```
+
+### 3. Database Setup 🗄️
+1. Log in to your MySQL terminal or GUI (like MySQL Workbench).
+2. Create a new database:
+   ```sql
+   CREATE DATABASE ats_analyzer;
+   ```
+3. Import the tables (from the project root):
+   ```bash
+   mysql -u your_username -p ats_analyzer < backend/schema.sql
+   ```
+   *Tip: Use your MySQL root user usually.*
+
+### 4. Backend Setup ⚙️
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Create and activate a Virtual Environment:
+   ```bash
+   python -m venv venv
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Configure credentials:
+   - Create a file named `.env` in the `backend/` directory.
+   - You can copy the template provided: `cp .env.example .env`
+   - Open `.env` and fill in your MySQL username and password.
+
+5. Start the backend:
+   ```bash
+   python main.py
+   ```
+   *The backend will be running at `http://localhost:8000`*
+
+### 5. Frontend Setup 🎨
+1. Open a **new** terminal window and navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install the necessary packages:
+   ```bash
+   npm install
+   ```
+3. Start the React development server:
+   ```bash
+   npm run dev
+   ```
+   *The app will be running at `http://localhost:5173`. Open this URL in your browser.*
+
+---
+
+---
+
 ## 💻 Tech Stack
 
 ### Frontend
