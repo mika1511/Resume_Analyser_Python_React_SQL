@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual env
+venv/
+env/
+.venv/
+backend/venv/
+
+# Package installers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Data / runtime files
+uploads/
+*.log
+
+# dotenv
+.env
+.env.*
